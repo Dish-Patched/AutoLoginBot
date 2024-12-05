@@ -26,8 +26,8 @@ def bot(username, password, url):
 
     WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.ID, "dashboard")))
 
-username = "dishanta.sarma4@gmail.com"
-password = "Mainibubu@12"
+username = ""
+password = ""
 
 url = "https://open.kattis.com/login/email?"
 bot(username, password, url)
